@@ -26,7 +26,7 @@ function cancelBackgroundChange() {
 }
 
 function startBackgroundChangeInterval() {
-    setInterval(changeBackgroundColor, 200);
+    setInterval(changeBackgroundColor, 1000);
 }
 
 function getRandomColor() {
@@ -48,6 +48,8 @@ function getRandomColor() {
 }
 
 
+
+// CI - Continous Integration
 
 // setTimeout(printHello, 5000) // Kör funktionen efter 1 sekund. "Callback"-funktion
 // setInterval(printHello, 2000, 3) // Kör funktionen varje 1 sekund
