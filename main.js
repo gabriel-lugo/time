@@ -26,7 +26,7 @@ function cancelBackgroundChange() {
 }
 
 function startBackgroundChangeInterval() {
-    setInterval(changeBackgroundColor, 1000);
+    setInterval(changeBackgroundColor, 200);
 }
 
 function getRandomColor() {
