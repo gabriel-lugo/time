@@ -20,7 +20,6 @@ function addEventListeners() {
 
 function cancelBackgroundChange() {
     clearTimeout(timeoutRef);
-
 }
 
 
